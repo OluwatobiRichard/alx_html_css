@@ -1,0 +1,114 @@
+
+
+/* Generate Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primaryCL: #c273ff;
+    --secondaryCL: #071629;
+}
+
+/* Body */
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif; /* Make sure to import fonts if needed */
+    background-image: url(./Images/Object.png);
+    background-size: content;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    max-width: 1240px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#ffffff;
+
+}
+
+nav a:hover {
+    opacity: 80%;
+}
+
+/* Banner Section */
+.header-text {
+    text-align: center;
+    margin-top: 5em;
+    font-weight: bold;
+}
+
+.header-text h1 {
+    font-size: 6em;
+}
+
+.header-text span {
+    margin: 1em;
+}
+
+.registerBTN {
+    padding: 10px 20px;
+    background-color: var(--primaryCL);
+    border: none;
+    border-radius: 35px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000ad;
+    margin-top: 3.75em;
+    margin-bottom: 17rem;
+}
+
+.toberounded {
+    border-radius: 100%;
+}
+
+.pro-section h2 {
+    text-align: center;
+    color: var(--primaryCL);
+    margin-bottom: 50px;
+}
+
+.pro-section h2>span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.pro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.pro-card img {
+    width: 135px;
+}
+
+#quote-section {
+    border: var(--primaryCL);
+    height: 300px;
+}

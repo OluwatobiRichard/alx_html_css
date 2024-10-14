@@ -42,7 +42,6 @@ nav a {
     font-size: 16px;
     font-weight: 600;
     color:#ffffff;
-
 }
 
 nav a:hover {
@@ -128,7 +127,7 @@ nav a:hover {
 }
 
 #video-section {
-    height: 400px;    
+    height: 550px;    
 }
 
 .video-mother {
@@ -138,7 +137,9 @@ nav a:hover {
     gap: 20px;
     align-items: center;
     margin: auto;
-    height: 600px;
+    margin-left: 2.5em;
+    height: 500px;
+    padding-bottom: 100px;
 }
 
 .video-card {
@@ -149,7 +150,86 @@ nav a:hover {
 .subvidieo-card img {
      width: 100px;   
     }
-    
 .video-text h3 {
-        
-    }
+    font-size: 20px;
+    color: #333;
+}
+
+.video-text h4 {
+    color: #c273ff;
+}
+
+.video-text h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.video-text p {
+    color: rgb(195, 198, 201);
+}
+
+#membership {
+background-color: #071629;
+height: 400px;
+}
+
+.membership-container {
+ display: flex; 
+ flex-direction: row;
+ gap: 150px;
+padding-top: 30px;
+text-align: center;
+margin-left: 3.6em;
+max-width: 1400px;
+}
+
+#faq {
+    height: 400px;
+}
+
+#faq h2 {
+    color: #071629;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.faq-container h3 {
+    color: #071629;
+}
+
+.faq-container p {
+    color: #abadb0;
+}
+
+#footer {
+    background-color: #071629;
+    height: 200px;
+}
+
+.footer-cotainer {
+padding-top: 70px;
+padding-left: 100px;
+}
+
+.footer-social-media {
+    color: #fffffc;
+    text-align: end;
+    padding-right: 100px;
+}
+
+.footer-social-media img {
+    border-radius: 7px;
+    margin: 0 5px
+}
+
+.footer-cotainer p {
+    text-align: center;
+    padding-top: 5px;
+}

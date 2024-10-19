@@ -1,0 +1,44 @@
+/* Basic styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px; /* Max content width */
+    margin: 0 auto; /* Center content */
+    padding: 20px;
+}
+
+/* Mobile styles for screens 480px or less */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller font for mobile */
+        padding: 10px; /* Less padding on mobile */
+    }
+    .container {
+        flex-direction: column; /* Stack content vertically on mobile */
+    }
+}
+
+/* Default link styles */
+a {
+    color: #000; /* Default color */
+    text-decoration: none;
+}
+
+/* Change color on hover and active */
+a:hover, a:active {
+    color: #FF6565; /* Hover/active color */
+}
+
+/* Default button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change opacity on hover and active */
+button:hover, button:active {
+    opacity: 0.9; /* Slightly less transparent */
+}
+

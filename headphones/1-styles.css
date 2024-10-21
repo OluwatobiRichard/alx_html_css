@@ -82,3 +82,39 @@ margin-left: 15%;
 margin-right: 15%;
  }
 
+#do-section {
+    height: 400px;
+    color: #ffffff;
+}
+
+.do-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.do-section h1 {
+    font-weight: bold;
+    padding-top: 17%;
+    padding-bottom: 1.5%;
+    color: #686a78;
+}
+
+.do-section p {
+    color: #a9acb0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2.5%;
+}
+
+.do-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.do-container h2 {
+    font-weight: bold;
+    color: #65646b;
+    padding-top: 0.5%;
+}

@@ -83,7 +83,7 @@ margin-right: 15%;
  }
 
 #do-section {
-    height: 400px;
+    height: 600px;
     color: #ffffff;
 }
 
@@ -96,6 +96,7 @@ margin-right: 15%;
 
 .do-section h1 {
     font-weight: bold;
+    font-size: 30px;
     padding-top: 17%;
     padding-bottom: 1.5%;
     color: #686a78;
@@ -117,4 +118,106 @@ margin-right: 15%;
     font-weight: bold;
     color: #65646b;
     padding-top: 0.5%;
+}
+
+#our-result {
+    background-image:url(images/headphones_hero_2.jpg);
+    background-size: content;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#our-result h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+#our-result p {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.polygon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+}
+
+.textcon {
+    background-color: #ff6666;
+    color: white;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    padding-top: 50px;
+}
+
+.para {
+    font-size: bold;
+    font-size: 50Px;
+    padding-bottom: 1%;
+}
+
+.Lorem { 
+    font-size: 16px;
+    padding-top: 2%;
+}
+
+#form {
+    height: 100px;
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form h1 {
+    color: #5d5d61;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.form-group {
+    color: #5d5d61;
+    padding-top: 2%;
+    font-size: bold;
+}
+
+#footer {
+    height: 300px;
+    background-color: #09152b;
+}
+
+.footer-cotainer img {
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+    padding-top: 6%;  
+    padding-bottom: 2%;
+}
+
+.footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 0.5px;
+    padding-right: 3%;
+}
+
+.footer-social-media img {
+    width: 30px;
+    padding-bottom: 3%;
+}
+
+.last {
+    text-align: center;
+    padding-top: 3%;
 }
